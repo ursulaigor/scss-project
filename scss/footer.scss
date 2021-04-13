@@ -1,0 +1,30 @@
+footer{
+    width:90%;
+    .row{
+        background-color:black;
+        display:flex;
+        justify-content: space-between;
+        height: 120px;
+        padding-top:25px;
+
+    .one-third-column{
+            text-align: left;
+    
+    }
+    
+    h2 {
+        font-size: 1.5em;
+        font-size: bold;
+    }
+    }
+    
+    color:white;
+footer a:hover,
+footer a:active,
+footer a:focus {
+  color: $overcolor;
+}
+
+   
+  
+}

@@ -1,0 +1,53 @@
+@import "mixin.scss";
+
+body { 
+font-family: $font-family-K, sans-serif;
+}
+
+h1, h2, h3, nav a {
+    font-family: $font-family-M, sans-serif; 
+}
+.btn-menu{
+    display:none ;
+
+}
+.row{
+    @include flex-center();
+    padding:20px;
+  
+    h1 {
+        font-size: x-large;
+        text-align: center;
+
+    }
+}
+main {
+    padding-top:10px;
+    background-color: white;
+    width: 90%;
+    align-content: center;
+    align-items: center;
+    padding-left:30px;
+}
+.wrapper{
+    background-color:$secondary-color;
+    padding-left:10%;
+}
+.column{
+    padding-left:20px;
+
+}
+section {
+    padding-top: 20px;
+    h1{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    article {
+        h1{
+            padding-bottom: 10px;
+        }
+    }
+
+
+}

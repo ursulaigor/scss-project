@@ -1,0 +1,53 @@
+.top-banner {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    h2 {
+    text-align:center;
+    font-size: 3.8rem;
+    font-family: $font-family-M, sans-serif; 
+    }
+
+    p {
+        text-align:center;
+    }
+  
+}
+
+.bottom-banner{
+    text-align: center;
+    font-size:2.1em;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+    p {
+        font-family: $font-family-M, sans-serif;
+        font-weight: bold;
+        font-size: 2.5rem;
+        padding-bottom: 20px;
+
+    }
+    a{
+        background-color: $primary-color;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        padding:15px;
+        font-family: $font-family-M, sans-serif;
+    }
+
+}
+.mid-banner{
+
+       position: relative;
+    
+    h2 {
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 5rem;
+        font-family: $font-family-K, sans-serif;
+      }
+
+}
