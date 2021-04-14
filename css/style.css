@@ -91,7 +91,7 @@ button {
 
 .top-banner h2 {
   text-align: center;
-  font-size: 3.8rem;
+  font-size: 3.6rem;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -114,7 +114,7 @@ button {
 }
 
 .bottom-banner a {
-  background-color: #dd3832;
+  background-color: #f01f3c;
   font-size: 1.2rem;
   text-transform: uppercase;
   padding: 15px;
@@ -141,7 +141,7 @@ header {
 }
 
 header .header-content-wrap {
-  background-color: #dd3832;
+  background-color: #f01f3c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -164,7 +164,7 @@ header .header-content-wrap nav a {
 
 header .header-content-wrap h1 {
   padding-top: 5px;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 header .header-content-wrap ul {
@@ -223,7 +223,7 @@ main {
 
 .wrapper {
   background-color: #c5c3c3;
-  padding-left: 10%;
+  /**  padding-left:10%;**/
 }
 
 .column {
@@ -307,7 +307,7 @@ section article h1 {
     display: none;
     width: 100%;
     clear: both;
-    background-color: #dd3832;
+    background-color: #f01f3c;
   }
   header nav ul {
     display: block;
